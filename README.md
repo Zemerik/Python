@@ -226,7 +226,7 @@ sudo dnf install code # Fedora
 
 ```bash
 git clone https://github.com/Zemerik/Python.git
-cd 30-days-of-python
+cd Python
 ```
 
 ## 💡 Tips for Success
