@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Manager</h1>
+        <form id="taskForm">
+            <input type="text" id="title" placeholder="Task title" required>
+            <textarea id="description" placeholder="Description"></textarea>
+            <button type="submit">Add Task</button>
+        </form>
+        <div id="taskList"></div>
+    </div>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
